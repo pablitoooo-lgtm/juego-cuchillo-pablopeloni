@@ -1,0 +1,5 @@
+Nombre,Puntaje
+pablo,6
+jose,23
+
+
