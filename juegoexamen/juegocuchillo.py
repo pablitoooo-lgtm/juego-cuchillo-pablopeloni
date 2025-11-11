@@ -447,10 +447,11 @@ def juego_principal():
             dibujar_cuchillos_clavados(angulos_clavados, rotacion_tronco)
             dibujar_cuchillo(CENTRO[0], y_cuchillo)
 
-            mostrar_texto(f"Nivel: {nivel}", 30, BLANCO, (70, 40))
-            mostrar_texto(f"jugar con tecla ESPACIO", 30, BLANCO, (150, 70))
+            mostrar_texto(f"Nivel: {nivel}", 30, BLANCO, (50, 30))
+            mostrar_texto(f"ESPACIO para lanzar cuchillo", 30, BLANCO, (150, 70))
             mostrar_texto(f"Cuchillos: {cuchillos_restantes}", 30, BLANCO, (ANCHO - 120, 30))
             mostrar_texto(f"Puntaje: {puntaje_total + puntaje}", 30, BLANCO, (ANCHO // 2, 30))
+
 
             pygame.display.flip()
             dt = reloj.tick(60) / 1000
